@@ -215,8 +215,8 @@
         #loginSection {
             display: block;
             text-align: center;
-            max-width: 400px;
-            margin: 100px auto 0;
+            max-width: 550px;
+            margin: 250px auto 0;
         }
         .login-form {
             background-color: rgba(20, 20, 30, 0.9);
@@ -307,13 +307,15 @@
     <!-- Login Section -->
     <div id="loginSection">
         <div class="login-form">
-            <h3>Welcome to Kormangala Poker House</h3>
-            <div class="form-group">
-                <label for="username">Username:</label>
+            <h2>Welcome to Kormangala Poker House</h2>
+            <h3>----------------------------------------------------------------------------</h3>
+            
+            <div class="form-group" style="margin-top: 50px;">
+                <label for="username" >Login ID:</label>
                 <input type="text" id="username" placeholder="Enter username">
             </div>
             <div class="form-group">
-                <label for="password">Password:</label>
+                <label for="password">Passcode:</label>
                 <input type="password" id="password" placeholder="Enter password">
             </div>
             <button class="login-btn" onclick="login()">Login</button>
